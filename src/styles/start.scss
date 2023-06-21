@@ -1,0 +1,60 @@
+.start{
+  padding: 211px 0 89px;
+  background: url("../assets/images/Home/Start/Back.png") center/cover no-repeat;
+  position: relative;
+  &__car{
+    position: absolute;
+    right: 0;
+    top: 96px;
+    width: 50%
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 44px;
+    line-height: 96.5%;
+    color: #FFFFFF;
+  }
+  &__left{
+    width: 50%;
+  }
+  &__text{
+    font-family: 'Museo Sans Cyrl 300';
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 20px 0 26px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 277px;
+    &-desc{
+      font-family: 'Museo Sans Cyrl 300';
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+    }
+  }
+  &__btns{
+    display: flex;
+    column-gap: 46px;
+    margin-bottom: 120px;
+  }
+  &__btn-right{
+    padding: 17px 45px;
+  }
+  &__btn-left{
+    padding: 17px 92px;
+  }
+}

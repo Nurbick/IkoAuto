@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container{
+  max-width: 1147px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url("../assets/fonts/museosanscyrl-300.ttf");
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url("../assets/fonts/museosanscyrl-700.ttf");
+}
+
+.btn__red{
+  background: linear-gradient(360deg, #A8180F 0%, #DD463D 100%);
+  box-shadow: 0 9px 48px rgba(211, 61, 52, 0.24);
+  border-radius: 43px;
+  border: none;
+}
+.btn__green{
+  background: linear-gradient(360deg, #077A34 0%, #19E270 100%);
+  box-shadow: 0 9px 48px rgba(24, 220, 109, 0.15);
+  border-radius: 43px;
+  border: none;
+}
+:hover{
+  transition: .5s;
+}
+button{
+  font-family: 'Museo Sans Cyrl 700';
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .5s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+
+
+@import "header";
+@import "navBar";
+@import "start";
+
+
+.active{
+  color: #E31E24;
+  font-family: 'Museo Sans Cyrl 700';
+  font-size: 15px;
+  line-height: 18px;
+}
