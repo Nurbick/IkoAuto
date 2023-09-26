@@ -1,10 +1,12 @@
 import React from 'react'
-
+import callImg from '../assets/images/overlayImg.png'
 const CallOverlay = () => {
     return (
         <div className='callOverlay'>
             <div className='callOverlay__content'>
-                <div className="callOverlay__left"></div>
+                <div className="callOverlay__left">
+                    <img src={callImg} alt="" className="callOverlay__img" />
+                </div>
                 <div className="callOverlay__right">
                     <div className="callOverlay__form">
                         <h1 className="callOverlay__title">Заказать обратный звонок</h1>
