@@ -1,11 +1,12 @@
 import React from 'react'
+import callOverlay from '../assets/images/overlay.png'
 
 const CallOverlay = () => {
     return (
         <div className='callOverlay'>
             <div className='callOverlay__content'>
                 <div className="callOverlay__left">
-                    <img src='../assets/images/overlayImg' alt="" className="callOverlay__img" />
+                    <img src={callOverlay} alt="" className="callOverlay__img" />
                 </div>
                 <div className="callOverlay__right">
                     <div className="callOverlay__form">
